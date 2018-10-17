@@ -1,0 +1,38 @@
+
+<html lang="fr" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="tictactoe.png">
+        <header>
+          <h1 id="titre">Tic Tac Toe</h1>
+        </header>
+    </head>
+    <body id="corps">
+      <p class="J1">Joueur 1 : </p>
+      <img src="cross.png" class="crossJ1">
+      <p class="J2">Joueur 2 : </p>
+      <img src="circle.png" class='circleJ2'>
+      <div class="morpion">
+        <div class="row">
+          <div class="cell" data-cell=1></div>
+          <div class="cell" data-cell=2></div>
+          <div class="cell" data-cell=3></div>
+        </div>
+        <div class="row">
+          <div class="cell" data-cell=4></div>
+          <div class="cell" data-cell=5></div>
+          <div class="cell" data-cell=6></div>
+        </div>
+        <div class="row">
+          <div class="cell" data-cell=7></div>
+          <div class="cell" data-cell=8></div>
+          <div class="cell" data-cell=9></div>
+        </div>
+      </div>
+      <p class="victoire"></p>
+        <input type="button" class="button" onclick='window.location.reload(false)' value="Rejouer"/>
+    <script src="main.js"></script>
+    </body>
+</html>
